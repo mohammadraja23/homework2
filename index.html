@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>TEXT EDITOR</h1>
+    <div class="menu">
+        <button onclick="document.getElementById('text').style.fontWeight = 'bold' ">Bold</button>
+        <button onclick="document.getElementById('text').style.fontStyle = 'italic' ">Italic</button>
+        <button onclick="document.getElementById('text').style.textAlign = 'left' ">Ltr</button>
+        <button onclick="document.getElementById('text').style.textAlign = 'center' ">Center</button>
+        <button onclick="document.getElementById('text').style.textAlign = 'right' ">Rtl</button>
+        <button onclick="document.getElementById('text').style.textTransform = 'uppercase' ">Upper Case</button>
+        <button onclick="document.getElementById('text').style.textTransform = 'lowercase' ">Lower Case</button>
+        <button onclick="document.getElementById('text').style.textTransform = 'capitalize' ">Capitalize</button>
+        <button onclick="document.getElementById('text').innerHTML = '' ">Clear text</button>
+    </div>
+    <form>
+    <textarea id="text">you can type sth here :)</textarea>
+    </form>
+</body>
+</html>

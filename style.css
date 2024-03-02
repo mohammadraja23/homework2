@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(222, 222, 222);
+    font-weight: 200;
+}
+button {
+    padding:6px 11px;
+    background-color: rgb(40, 40, 40);
+    border:1px solid rgb(122, 122, 122);
+    border-radius: 2px;
+    color: rgb(222, 222, 222);
+    cursor:pointer;
+}
+textarea {
+    width: 610px;
+    height: 420px;
+    margin-top: 30px;
+    border:3px inset rgb(200, 200, 200);
+    outline: 0px;
+    resize: none;
+    background-color: rgb(84, 81, 99);
+    color: rgb(222, 222, 222);
+    font-size: 16px;
+}
